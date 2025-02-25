@@ -34,9 +34,21 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          {source_code_link && <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          {projectLink && <div className={`absolute inset-0 flex justify-end card-img_hover ${source_code_link ? "m-16 mt-3 " : "m-3"}`}>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={"https://www.svgrepo.com/show/448579/redirect.svg"}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain invert opacity-90'
+              />
+            </div>
+          </div>}
+          {source_code_link && <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(projectLink, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
