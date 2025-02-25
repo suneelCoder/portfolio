@@ -28,11 +28,17 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import notes from "./notes.png";
+import kollab from "./kollab.png";
+import countryFinder from "./countryFinder.png";
+import mirraw from "./mirraw.png";
+import chess from "./chess.png";
+import tictactoe from "./tictactoe.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import resumeFile from "./resume.pdf"
+import resumeFile from "./resume.pdf";
 
 export {
   logo,
@@ -61,8 +67,14 @@ export {
   starbucks,
   ceoitbox,
   tesla,
+  notes,
+  kollab,
+  countryFinder,
+  mirraw,
+  chess,
+  tictactoe,
   carrent,
   jobit,
   tripguide,
-  resumeFile
+  resumeFile,
 };

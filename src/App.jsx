@@ -1,8 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { userDetails } from "./constants";
 
 const App = () => {
+  document.title = `${userDetails.name} | Portfolio`;
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
