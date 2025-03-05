@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./suneel.jpeg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,13 +28,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import notes from "./notes.png";
+import notes from "./ecom.png";
 import kollab from "./kollab.png";
 import countryFinder from "./countryFinder.png";
 import mirraw from "./mirraw.png";
 import chess from "./chess.png";
 import tictactoe from "./tictactoe.png";
-import carrent from "./carrent.png";
+import carrent from "./onelink.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 

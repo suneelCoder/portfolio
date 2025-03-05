@@ -29,6 +29,9 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
     e.preventDefault();
     setLoading(true);
     emailjs
@@ -37,7 +40,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: userDetails.name ,
+          to_name: userDetails.name,
           from_email: form.email,
           to_email: userDetails.email,
           message: form.message,
@@ -114,24 +117,24 @@ const Contact = () => {
             />
           </label>
 
-         <div className="flex justify-start gap-5 items-center ">
-         <button
-            onClick={handleSubmit}
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
-          <p>OR</p>
-         <button
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-            onClick={()=>{
-              if(!form.message) return alert("Please enter a message")
-              window.open(`https://wa.me/${"+917310676239"}?text=${form.message}`,"_blank")
-            }}
-          >
-            WhatsApp
-          </button>
-          </div> 
+          <div className="flex justify-start gap-5 items-center ">
+            <button
+              onClick={handleSubmit}
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+            <p>OR</p>
+            <button
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+              onClick={() => {
+                if (!form.message) return alert("Please enter a message")
+                window.open(`https://wa.me/${"+917351437357"}?text=${form.message}`, "_blank")
+              }}
+            >
+              WhatsApp
+            </button>
+          </div>
         </div>
       </motion.div>
 
