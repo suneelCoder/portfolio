@@ -192,7 +192,7 @@ const projects = [
   {
     name: "E-Commerce",
     description:
-      "Web-based note making platform with features like collaborative editing, voice notes, nested notes, label sharing, task management, and deadline tracking, advanced search, location based reminders, and task reminders, font formatting any many more.",
+      "Developed a high-performance Multi-Seller E-Commerce Web App• Designed a robust seller dashboard with order management, product listings, and sales analytics• Implemented real-time order notifications using WebSockets, ensuring instant alerts to sellers for new orders",
     tags: [
       {
         name: "react",
@@ -218,7 +218,7 @@ const projects = [
   {
     name: "FreshMeal-Website",
     description:
-      "Web app to draw and chat live with people. It has features like drawing with different colors, erasing, clearing the canvas, and chatting with people in the same room.",
+      "A modern and responsive food delivery website designed while learning HTML, CSS, and JavaScript. This project showcases my front-end development skills, including layout design, animations, and interactive UI elements.",
     tags: [
       {
         name: "HTML",
@@ -235,90 +235,6 @@ const projects = [
     image: kollab,
     source_code_link: "https://github.com/suneel7351/FreshMeal-Website",
     projectLink: "https://fresh-meal-website.netlify.app/"
-  },
-  {
-    name: "Chess Game",
-    description:
-      "A live two-player chess game with features like moving pieces, castling, en-passant, promotion, check, checkmate, and stalemate.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chess,
-    source_code_link: "https://github.com/ishanyadav13290/React-Chess",
-    projectLink: "https://react-chess-ishan.netlify.app/",
-  },
-  {
-    name: "Mirraw Clone",
-    description:
-      "A clone of the Mirraw website with features like product listing, product details, product search, and product filtering, adding to cart, checkout etc.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chakr-ui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mirraw,
-    source_code_link: null,
-    projectLink: "https://e-commerce-clone-b5604.web.app/",
-  },
-  {
-    name: "Country Finder",
-    description:
-      "A begineer friendly project to get information about countries like population, area, capital, language, currency, and flag with search and filters.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: countryFinder,
-    source_code_link: null,
-    projectLink: "https://e-commerce-clone-b5604.web.app/",
-  },
-  {
-    name: "Tic-Tac-Toe Game",
-    description:
-      "A beginners project to play tic-tac-toe game to built with motive to learn JavaScript and build logic.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tictactoe,
-    source_code_link: null,
-    projectLink: "https://c6ngrw.csb.app/",
   },
 ];
 
@@ -340,12 +256,12 @@ const testimonials = [
     image: "https://media.licdn.com/dms/image/v2/D5603AQFDR1IeKXHW9Q/profile-displayphoto-shrink_200_200/B56ZTq1VfGHoAY-/0/1739106638528?e=1746662400&v=beta&t=pEqxYjlzu4sSFUL5NKSfCniD5Q5DQn340MTKYjsmlcw",
   },
   {
-    testimonial: "Suneel is an exceptional MERN Stack Developer and mentor. His expertise in MongoDB, Express.js, React, and Node.js, combined with strong problem-solving skills, has been invaluable. Always supportive and approachable, he fosters a collaborative environment and guides juniors effortlessly. I highly recommend him as a skilled and reliable developer."
+    testimonial: "Suneel is a highly skilled MERN Stack Developer and an excellent mentor. His deep knowledge of MongoDB, Express.js, React, and Node.js, along with his strong problem-solving abilities, makes him an invaluable asset. He is always supportive and approachable, creating a collaborative environment while effortlessly guiding junior developers. I strongly endorse him as a talented and dependable professional."
     ,
-    name: "Ishan Yadav",
-    designation: "Full Stack Developer",
+    name: "Ajay Barman",
+    designation: "Implementation Consultant",
     company: "CEOITBOX",
-    image: "https://avatars.githubusercontent.com/u/112482175?v=4",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQESJBBpW7Nebw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725910078143?e=1746662400&v=beta&t=KnFWmRUnH4UIB0F0ESbEdVw2mBmAVE80_sdoGowkHow",
   },
 ];
 

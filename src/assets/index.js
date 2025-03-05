@@ -29,7 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import notes from "./ecom.png";
-import kollab from "./kollab.png";
+import kollab from "./freshmeel.png";
 import countryFinder from "./countryFinder.png";
 import mirraw from "./mirraw.png";
 import chess from "./chess.png";
