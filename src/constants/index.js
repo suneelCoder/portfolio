@@ -39,7 +39,7 @@ export const userDetails = {
   fullName: "Suneel Kumar",
   email: "rsuneel47@gmail.com",
   whatsapp: "+917351437357",
-  designation: "Associate Software Developer",
+  designation: "Software Developer Engineer",
   shortInfo: "I develop Full-Stack Applications,\nuser interfaces and android applications",
   about: "I'm a skilled software engineer with expertise in JavaScript and TypeScript, specializing in React.js, React Native, and Node.js. I have experience working with MongoDB, Express.js, REST APIs, along with frontend technologies like HTML, CSS, Tailwind.\
 Additionally, I have expertise in building microservices using Kafka and TypeORM, ensuring scalable and event-driven architectures. I am well-versed in containerization and orchestration with Docker and Kubernetes, enabling efficient deployment and management of applications. A quick learner and a strong collaborator, I focus on developing efficient, scalable, and user-friendly solutions that solve real-world problems.\Let’s work together to turn your ideas into reality!"
@@ -80,7 +80,7 @@ const services = [
 
 const experiences = [
   {
-    title: "Associate Software Developer",
+    title: "Software Developer Engineer",
     company_name: "CEOITBOX",
     icon: ceoitbox,
     iconBg: "#ffffff",
@@ -168,6 +168,27 @@ const technologies = [
 
 const projects = [
   {
+    name: "Feedback-System",
+    description:
+      "Developed a comprehensive Employee Feedback System using MERN stack and Redux, streamlining the employee evaluation process by 45%.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },],
+    image: "/img/hr.png",
+    source_code_link: "-",
+    projectLink: "-"
+  },
+  {
     name: "OneLink",
     description:
       "Create a Single URL for Multiple Links.Consolidate all your important links into one easy-to-share URL with customizable menus and branding.",
@@ -186,7 +207,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://onlk.in/"
+    source_code_link: "",
+    projectLink: "https://onlk.com"
   }
   ,
   {
@@ -211,7 +233,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: notes,
+    image: "/img/mi.png",
+    // image: notes,
     source_code_link: 'https://github.com/suneel7351/revise-ecommerce',
     projectLink: "https://ecom-l278.onrender.com/"
   },
@@ -232,10 +255,11 @@ const projects = [
         name: "JavaScript",
         color: "pink-text-gradient",
       },],
-    image: kollab,
+    image: '/img/freshmeal.png',
     source_code_link: "https://github.com/suneel7351/FreshMeal-Website",
     projectLink: "https://fresh-meal-website.netlify.app/"
   },
+
 ];
 
 const testimonials = [
