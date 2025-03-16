@@ -38,7 +38,7 @@ const Skills = () => {
                     {skillsData.map((skill, index) => (
                         <div key={index} className="bar w-[180px] hover:scale-105 transform transition duration-300 ease-in-out cursor-pointer">
                             <div className="info flex flex-col items-center">
-                                <img src={skill.img} alt={skill.name} className="w-14 h-14"
+                                <img src={skill.img} alt={skill.name || "skill"} className="w-14 h-14"
                                 />
                                 <span className="mt-2 text-center font-medium">{skill.name}</span>
                             </div>
